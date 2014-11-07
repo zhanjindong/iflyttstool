@@ -17,13 +17,16 @@ text:默认的合成文本路径。
 -s 音频合成
 命令行跟参数-s和要合成的文本路径以及合成结果的路径。
 注意：路径是携带文件名的完整路径，合成的音频结果必须保存为.wav文件。
+
 示例：
 "C:\Documents and Settings\jdzhan\桌面\手机腾讯网音频转换工具\bin\tecentttstool.exe" -s ../text/早晚报.txt ../synth/synth.wav
+
 -t 音频转换
 命令行跟参数-t和要转换的.wav音频文件路径以及转换结果.mp3的文件路径。
 注意：路径是携带文件名的完整路径，目前支持从.wav格式转换为.mp3格式。
 示例：
 "C:\Documents and Settings\jdzhan\桌面\手机腾讯网音频转换工具\bin\tecentttstool.exe" -t ../synth/synth.wav ../synth/synth.mp3
+
 -st 音频合成后同时完成.wav到.mp3格式的转换
 命令行跟参数-st，要合成的文本路径，合成的.wav路径以及转换后的.mp3文件路径。如果没有提供.mp3文件路径则和.wav路径相同。
 示例：
